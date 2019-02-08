@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+img {
+    opacity: 0.7;
+    width: 300px;
+    height: 300px;
+}
+
+p {
+  width: 200px;
+  padding: 40px 80px;
+  background-color: cyan;
+  border: 5px red solid;
+  border-radius: 25px;
+}
+
+#outer {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border: 5px black solid;
+}
+
+#middle {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+}
+
+#inner {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<img src="http://i.imgur.com/QKlfH.jpg">
+
+<p>Pick any image to put above and change the width and height of it to be 150px and change the opacity of the image above to be 0.7. This is a paragraph tag with a cyan background color, 40px of padding on the top and bottom and 80px on the left and right and a width of 200px and a border radius of 25px. Below, There are three divs nested in one another. The outer most one is 500px*500px, red, with a 5px black solid border. The middle one is blue 300*300 and the inner most one is yellow 100*100.</p>
+
+
+<div id="outer">
+  <div id="middle">
+    <div id="inner">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
